@@ -10,7 +10,7 @@ Trip.delete_all
 Suitcase.delete_all
 Belonging.delete_all
 
-u1= User.create(name: "Germain Arturo", username: "Arthur", email: "arturo@gamil.com", password_digest: "123")
+u1= User.create(name: "Germain Arturo", username: "Arthur", email: "arturo@gamil.com", password: "123")
 
 t1=Trip.create(name: "Leaving for College", date: Date.new(2010, 3, 12), user: u1)
 t2=Trip.create(name: "Easter in Venezuela", date: Date.new(2019, 4, 17), user: u1)

@@ -1,6 +1,6 @@
 class Api::V1::BelongingsController < ApplicationController
   before_action :find_belonging, only: [:update, :show]
-#rjkjk
+
    def index
      # @belongings = Belonging.all
      @suitcase = Suitcase.find(params[:suitcase_id])
