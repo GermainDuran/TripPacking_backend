@@ -11,27 +11,37 @@ Developed a Rails API backend with endpoints for users, trips, belongings and su
 + Incorporated Cloudinary API to enable image uploads.
 
 Getting Started
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
+
 Before running, be sure to have the following installed and running:
 
 Ruby version: 2.5.3
 PostgreSQL database
 
 Installing
+
 Run the following from your terminal in the root directory of this repo:
 
 bundle install
+
 rails db:setup
+
 rails db:migrate
+
 rails db:seed (if you want dummy data to work with)
+
 rails s
 
 Author:
 Germain Arturo Duran Torres
 
-FrontEnd Repository
+FrontEnd Repository:
+
 https://github.com/GermainDuran/tripPacking_frontEnd
 
-Demo
+Demo:
+
+https://youtu.be/PvkMDsr_b5c
